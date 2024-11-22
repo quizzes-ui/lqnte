@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/lib/blog.constants.ts"],"sourcesContent":["export const BLOG_TITLE = \"Next.js Blog\";\nexport const BLOG_DESCRIPTION = \"Powered by Zenblog.com\";\nexport const BLOG_LANG = \"en\";\n"],"names":[],"mappings":";;;;;AAAO,MAAM,aAAa;AACnB,MAAM,mBAAmB;AACzB,MAAM,YAAY"}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\nimport \"./globals.css\";\nimport { BLOG_LANG, BLOG_DESCRIPTION, BLOG_TITLE } from \"@/lib/blog.constants\";\n\nexport const metadata: Metadata = {\n  title: BLOG_TITLE,\n  description: BLOG_DESCRIPTION,\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  return (\n    <html lang={BLOG_LANG}>\n      <body className={`antialiased`}>{children}</body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;;;;AAEO,MAAM,WAAqB;IAChC,OAAO,wHAAA,CAAA,aAAU;IACjB,aAAa,wHAAA,CAAA,mBAAgB;AAC/B;AAEe,SAAS,WAAW,EACjC,QAAQ,EAGR;IACA,qBACE,8OAAC;QAAK,MAAM,wHAAA,CAAA,YAAS;kBACnB,cAAA,8OAAC;YAAK,WAAW,CAAC,WAAW,CAAC;sBAAG;;;;;;;;;;;AAGvC"}},
+    {"offset": {"line": 51, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 62, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = require('../../module.compiled').vendored[\n  'react-rsc'\n].ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":";AAAAA,OAAOC,OAAO,GAAGC,QAAQ,0HAAyBC,QAAQ,CACxD,YACD,CAACC,kBAAkB","ignoreList":[0]}},
+    {"offset": {"line": 64, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
