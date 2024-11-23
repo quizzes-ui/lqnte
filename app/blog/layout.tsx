@@ -18,10 +18,7 @@ export default function BlogLayout({
         {children}
         <footer className="p-12 text-center border-t mt-12">
           <p>
-            Go write something!{" "}
-            <Link className="underline" href="https://zenblog.com">
-              Zenblog.com
-            </Link>
+            @ Raul Bravo, 2024
           </p>
         </footer>
       </div>

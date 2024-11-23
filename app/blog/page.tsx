@@ -22,9 +22,9 @@ export default async function BlogPage() {
   return (
     <div className="p-4 space-y-12">
       <div>
-        <h1 className="md:text-3xl text-2xl font-bold mt-12">Blog</h1>
+        <h1 className="md:text-3xl text-2xl font-bold mt-12">Lo que nadie te explicará</h1>
         <p className="text-slate-500 text-lg mt-2">
-          Stay up to date with the latest news and updates from the team!
+          Cosas que debes saber, que no enseñan en la escuela
         </p>
       </div>
       <article className="md:flex group">
